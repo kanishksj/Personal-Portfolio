@@ -1,0 +1,444 @@
+.skill-section{
+  justify-items: center;
+  margin-top: 50px;
+}
+.skill-section h2{
+  color: #F6F4F0;
+}
+.skill-section .skill-main-x{
+  background-color: #4DA1A9;
+  height: 250px;
+  width: 1140px;
+  border-radius: 15px;
+  align-items: center;
+  box-shadow: 10px 10px 5px #4e4e4e;
+}
+.skill-section .skill-main-x .skill-icon-box ul{
+  display: flex;
+  list-style: none;
+  gap: 50px;
+ 
+}
+.skill-section .skill-main-x .skill-icon-box ul li{
+  background-color: #79D7BE;
+  margin-top: 50px;
+  height: 140px;
+  width: 140px;
+  padding: 17px;
+  border-radius: 45px;
+  box-shadow: 10px 10px 5px #4e4e4e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill-section .skill-main-x .skill-icon-box img{
+  height: 100px;
+}
+.about-me-section{
+  justify-items: center;
+  margin-top: 50px;
+}
+.about-me-section h2{
+  color: #F6F4F0;
+}
+.about-me-section .about-us-main{
+  background-color: #4DA1A9;
+  height: 350px;
+  width: 1140px;
+  border-radius: 15px;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+  justify-content:space-around;
+  box-shadow: 10px 10px 5px #4e4e4e;
+}
+.about-me-section .about-us-main .img{
+  background-color: #fff;
+  height: 300px;
+  border-radius: 15px;
+  margin: 52px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 10px 10px 5px #d17474;
+  transition: all 0.3ms ease;
+}
+.about-me-section .about-us-main .img img{
+  height: 260px;
+  width: 260px;
+}
+
+.about-me-section .about-us-main img:hover{
+  transform: scale(1.2);
+}
+.about-me-section .about-us-main p{
+  color: #F6F4F0;
+  font-size: 25px;
+}
+
+.contact-me-section{
+  justify-items: center;
+  margin-top: 50px;
+}
+.contact-me-section h2{
+  color: #F6F4F0;
+}
+.contact-me-section .contact-us-main{
+  background-color: #4DA1A9;
+
+  height: 350px;
+  width: 1140px;
+  border-radius: 15px;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+  justify-content:space-around;
+  box-shadow: 10px 10px 5px #4e4e4e;
+}
+.contact-me-section .contact-us-main p{
+  color: #F6F4F0;
+  font-size: 25px;
+}
+.contact-me-section .contact-us-main .helpline{
+  background-color: #fff;
+  box-shadow: 10px 10px 5px #4e4e4e;
+  height: 320px;
+  width: 600px;
+  border-radius: 15px;
+  display: block;
+}
+.contact-me-section .contact-us-main .helpline .text-fill{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  
+}
+.contact-me-section .contact-us-main .helpline .text-fill input{
+  margin-left: 25px;
+  margin-top: 15px;
+  padding: 5px;
+  height: 45px;
+  width: 255px;
+  border-radius: 1px;
+}
+.contact-me-section .contact-us-main .helpline .text-fill .email-main{
+  margin-left: 25px;
+  margin-top: 15px;
+  padding: 5px;
+  height: 45px;
+  width: 542px;
+}
+.contact-me-section .contact-us-main .helpline .text-fill .project-title{
+  margin-left: 25px;
+  padding: 1px;
+  height: 55px;
+  width: 542px;
+}
+.contact-me-section .contact-us-main .helpline button{
+  background-color: #2A004E;
+  color: #F6F4F0;
+  height: 35px;
+  width: 545px;
+  margin-top: 15px;
+  margin-left: 25px;
+  border-radius: 5px;
+  border: none;
+}
+@media (max-width: 768px) {
+  /* Reduce font sizes for smaller screens */
+  .home-section .title h1,
+  .home-section .title h2 {
+    font-size: 36px;
+  }
+
+  .skill-section img {
+    max-width: 80px;
+  }
+
+  .about-me-section p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-section .title h1,
+  .home-section .title h2 {
+    font-size: 28px;
+  }
+
+  .skill-section img {
+    max-width: 60px;
+  }
+
+  header .navbar-brand {
+    font-size: 20px;
+  }
+
+  .contact-me-section h2 {
+    font-size: 20px;
+  }
+}
+////////////////////////////////////////////
+
+
+
+.about-me-section{
+  justify-items: center;
+  margin-top: 50px;
+}
+.about-me-section h2{
+  color: #F6F4F0;
+}
+.about-me-section .about-us-main{
+  background-color: #4DA1A9;
+  height: 350px;
+  width: 1140px;
+  border-radius: 15px;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+  justify-content:space-around;
+  box-shadow: 10px 10px 5px #4e4e4e;
+}
+.about-me-section .about-us-main .img{
+  background-color: #fff;
+  height: 300px;
+  border-radius: 15px;
+  margin: 52px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 10px 10px 5px #d17474;
+  transition: all 0.3ms ease;
+}
+.about-me-section .about-us-main .img img{
+  height: 260px;
+  width: 260px;
+}
+
+.about-me-section .about-us-main img:hover{
+  transform: scale(1.2);
+}
+.about-me-section .about-us-main p{
+  color: #F6F4F0;
+  font-size: 25px;
+}
+
+.contact-me-section{
+  justify-items: center;
+  margin-top: 50px;
+}
+.contact-me-section h2{
+  color: #F6F4F0;
+}
+.contact-me-section .contact-us-main{
+  background-color: #4DA1A9;
+
+  height: 350px;
+  width: 1140px;
+  border-radius: 15px;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+  justify-content:space-around;
+  box-shadow: 10px 10px 5px #4e4e4e;
+}
+.contact-me-section .contact-us-main p{
+  color: #F6F4F0;
+  font-size: 25px;
+}
+.contact-me-section .contact-us-main .helpline{
+  background-color: #fff;
+  box-shadow: 10px 10px 5px #4e4e4e;
+  height: 320px;
+  width: 600px;
+  border-radius: 15px;
+  display: block;
+}
+.contact-me-section .contact-us-main .helpline .text-fill{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  
+}
+.contact-me-section .contact-us-main .helpline .text-fill input{
+  margin-left: 25px;
+  margin-top: 15px;
+  padding: 5px;
+  height: 45px;
+  width: 255px;
+  border-radius: 1px;
+}
+.contact-me-section .contact-us-main .helpline .text-fill .email-main{
+  margin-left: 25px;
+  margin-top: 15px;
+  padding: 5px;
+  height: 45px;
+  width: 542px;
+}
+.contact-me-section .contact-us-main .helpline .text-fill .project-title{
+  margin-left: 25px;
+  padding: 1px;
+  height: 55px;
+  width: 542px;
+}
+.contact-me-section .contact-us-main .helpline button{
+  background-color: #2A004E;
+  color: #F6F4F0;
+  height: 35px;
+  width: 545px;
+  margin-top: 15px;
+  margin-left: 25px;
+  border-radius: 5px;
+  border: none;
+}
+@media (max-width: 768px) {
+  /* Reduce font sizes for smaller screens */
+  .home-section .title h1,
+  .home-section .title h2 {
+    font-size: 36px;
+  }
+
+  .skill-section img {
+    max-width: 80px;
+  }
+
+  .about-me-section p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-section .title h1,
+  .home-section .title h2 {
+    font-size: 28px;
+  }
+
+  .skill-section img {
+    max-width: 60px;
+  }
+
+  header .navbar-brand {
+    font-size: 20px;
+  }
+
+  .contact-me-section h2 {
+    font-size: 20px;
+  }
+}
+//-->  -->
+
+
+<div class="contact-me-section">
+<h2>Contact us</h2>
+<div class="contact-us-main">
+  <p>
+    share your vision for next project with <br />
+    us now . Please contact us for basic <br />
+    questions. We;re here to help.
+  </p>
+  <div class="helpline">
+    <div class="text-fill">
+      <input type="text" placeholder="First Name" />
+      <input type="text" placeholder="Last Name" />
+      <input
+        type="email"
+        class="email-main"
+        placeholder="Enter Address"
+      />
+      <input type="text" placeholder="Service Interest in" />
+      <input type="text" placeholder="Subject" />
+      <input
+        type="textarea"
+        class="project-title"
+        placeholder="Tell us About Your Projects in short"
+      />
+    </div>
+    <button title="submit">SUBMIT</button>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<footer class="bg-body-tertiary text-center">
+<!-- Grid container -->
+<div class="container p-4 pb-0">
+  <!-- Section: Social media -->
+  <section class="mb-4">
+    <!-- Facebook -->
+    <a
+    data-mdb-ripple-init
+      class="btn text-white btn-floating m-1"
+      style="background-color: #3b5998;"
+      href="#!"
+      role="button"
+      ><i class="fab fa-facebook-f"></i
+    ></a>
+
+    <!-- Twitter -->
+    <a
+      data-mdb-ripple-init
+      class="btn text-white btn-floating m-1"
+      style="background-color: #55acee;"
+      href="#!"
+      role="button"
+      ><i class="fab fa-twitter"></i
+    ></a>
+
+    <!-- Google -->
+    <a
+      data-mdb-ripple-init
+      class="btn text-white btn-floating m-1"
+      style="background-color: #dd4b39;"
+      href="#!"
+      role="button"
+      ><i class="fab fa-google"></i
+    ></a>
+
+    <!-- Instagram -->
+    <a
+      data-mdb-ripple-init
+      class="btn text-white btn-floating m-1"
+      style="background-color: #ac2bac;"
+      href="#!"
+      role="button"
+      ><i class="fab fa-instagram"></i
+    ></a>
+
+    <!-- Linkedin -->
+    <a
+      data-mdb-ripple-init
+      class="btn text-white btn-floating m-1"
+      style="background-color: #0082ca;"
+      href="#!"
+      role="button"
+      ><i class="fab fa-linkedin-in"></i
+    ></a>
+    <!-- Github -->
+    <a
+      data-mdb-ripple-init
+      class="btn text-white btn-floating m-1"
+      style="background-color: #333333;"
+      href="#!"
+      role="button"
+      ><i class="fab fa-github"></i
+    ></a>
+  </section>
+  <!-- Section: Social media -->
+</div>
+<!-- Grid container -->
+
+<!-- Copyright -->
+<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+  © 2020 Copyright:
+  <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+</div>
+<!-- Copyright -->
+</footer>
